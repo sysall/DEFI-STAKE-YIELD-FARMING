@@ -16,5 +16,11 @@ networks:
     verify: True
   ganache:
     verify: False
+  sepolia:
+    verify: True
+    weth_token: '0xb16F35c0Ae2912430DAc15764477E179D9B9EbEa'
+    dai_token: '0x82fb927676b53b6eE07904780c7be9b4B50dB80b'
+    dai_usd_price_feed: '0x14866185B1962B63C3Ea9E03Bc1da838bab34C19'
+    eth_usd_price_feed: '0x694AA1769357215DE4FAC081bf1f309aDC325306'
 
   

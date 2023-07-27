@@ -43,9 +43,10 @@ def get_contract(contract_name):
     return contract
 
 
-DECIMALS = 8
-INITIAL_VALUE = 200000000000
-def deploy_mocks(decimals = DECIMALS, initial_value = INITIAL_VALUE):
+INITIAL_PRICE_FEED_VALUE = 2000000000000000000000
+DECIMALS = 18
+
+def deploy_mocks(decimals = DECIMALS, initial_value = INITIAL_PRICE_FEED_VALUE):
     """
     Use this script if you want to deploy mocks to a testnet
     """

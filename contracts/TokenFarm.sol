@@ -26,7 +26,7 @@ contract TokenFarm is Ownable{
         allowedTokens.push(_token);
     }
 
-    function tokenIsAllowed(address _token) public returns (bool) {
+    function tokenIsAllowed(address _token) public view returns (bool) {
         for( uint256 allowedTokensIndex=0; allowedTokensIndex < allowedTokens.length; allowedTokensIndex++){
             if(allowedTokens[allowedTokensIndex] == _token){
                 return true;
@@ -107,7 +107,7 @@ contract TokenFarm is Ownable{
 
     }
 
-    function unstackeTokens (address _token) public {
+    function unstackTokens(address _token) public {
         uint256 balance = stackingBalance[_token][msg.sender];
         require(balance > 0, "Stacking balance cannot be 0");
         IERC20(_token).transfer(msg.sender, balance);

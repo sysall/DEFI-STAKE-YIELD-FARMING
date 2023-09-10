@@ -1,0 +1,81 @@
+{
+  "contracts": {
+    "LinkToken": "49e7bae2df618e81d877632c6ad55872ff2ce801",
+    "MockDAI": "8cba3facac5d4f3bf1d9e76d35a288c250f8fbc3",
+    "MockERC20": "8ef118c39be56240182801774ede616ee0222ab0",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "MockWETH": "fdb663a0d99aac27e649c37ac89aa4bddfc04eaa",
+    "OpenZeppelin/openzeppelin-contracts@4.9.2/ERC20": "5d7c53ac75579876ffbfb61e35f275d9402a5cc6",
+    "SunucashToken": "9b743fa516ea43a66d5300ea9e6c3691c76f0bd5",
+    "TokenFarm": "9408b7684db1cdb84bcb88118a361bd3b1755ab1",
+    "VRFCoordinatorMock": "a234e721cab3c47e532d8404949512e63f344855",
+    "smartcontractkit/chainlink-brownie-contracts@0.6.1/BasicToken": "92084ac5279a2a3db988d9e01d7e6d3e3a4dab8d",
+    "smartcontractkit/chainlink-brownie-contracts@0.6.1/SafeMathChainlink": "bf84f5dba942291289c80f271862cb515ce813ab",
+    "smartcontractkit/chainlink-brownie-contracts@0.6.1/StandardToken": "7f21b0e2f1d1fcf89f4466183c9e73bc3cf77276",
+    "smartcontractkit/chainlink-brownie-contracts@0.6.1/VRFRequestIDBase": "73df0a6f5d0123eb2b2db0faf62b602aa77c123a"
+  },
+  "tests": {
+    "tests/unit/test_token_farm.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "........",
+      "sha1": "58f16e33bffdef8cfd1cc80dfcb2886f772bbf43",
+      "txhash": [
+        "8562717b0819e810738149822422c0353d137121",
+        "c1bc334a20e41eaaed3ae8fca220210194309433"
+      ]
+    }
+  },
+  "tx": {
+    "8562717b0819e810738149822422c0353d137121": {
+      "TokenFarm": {
+        "0": [
+          [
+            30
+          ],
+          [
+            39
+          ],
+          []
+        ],
+        "2": [
+          [
+            29
+          ],
+          [],
+          []
+        ],
+        "6": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "c1bc334a20e41eaaed3ae8fca220210194309433": {
+      "TokenFarm": {
+        "0": [
+          [
+            30
+          ],
+          [
+            39
+          ],
+          []
+        ],
+        "2": [
+          [
+            29
+          ],
+          [],
+          []
+        ],
+        "6": [
+          [],
+          [],
+          []
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "1337" : "dev",
+    "11155111" : "sepolia",
+    "4" : "rinkeby",
+    "42" : "kovan",
+    "1" : "mainnet"
+}

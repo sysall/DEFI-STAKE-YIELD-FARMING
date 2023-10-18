@@ -12,7 +12,11 @@ import { Main } from './components/Main';
 function App() {
   return (
     <DAppProvider config={{
-      supportedChains: [ChainId.Sepolia, ChainId.Localhost, ChainId.Rinkeby],
+      supportedChains: [ChainId.Sepolia],
+      notifications: {
+        expirationPeriod: 1000,
+        checkInterval: 1000
+      }
     }}>
       <Header></Header>
       <Container maxWidth="md">
